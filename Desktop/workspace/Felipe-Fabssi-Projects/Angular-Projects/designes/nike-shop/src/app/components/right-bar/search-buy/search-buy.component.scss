@@ -1,0 +1,66 @@
+:host {
+  display: flex;
+}
+
+.search-buy-box {
+  height         : 50px;
+  width          : 160px;
+  position       : relative;
+  top            : 20px;
+  display        : flex;
+  justify-content: space-around;
+  align-items    : center;
+
+  &__search-icon {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+  }
+
+  &__qty {
+    position : absolute;
+    right    : -7px;
+    color    : #bdff42;
+    font-size: 1.3rem;
+  }
+}
+
+img {
+  filter: invert(.9);
+  cursor: pointer;
+}
+
+
+.menu {
+  height          : 100px;
+  width           : 110px;
+  background-color: #bdff42;
+  position        : relative;
+  left            : 41%;
+  cursor          : pointer;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  align-items     : center;
+
+  &__dash-1 {
+    height          : 3px;
+    width           : 2.3rem;
+    background-color: black;
+    font-weight     : 800;
+    transform       : rotate(180deg);
+    border-radius   : 2rem;
+  }
+
+  &__dash-2 {
+    height          : 3px;
+    width           : 1.3rem;
+    background-color: black;
+    font-weight     : 800;
+    transform       : rotate(180deg);
+    border-radius   : 2rem;
+    position        : relative;
+    top             : .6rem;
+    left            : .5rem;
+  }
+}

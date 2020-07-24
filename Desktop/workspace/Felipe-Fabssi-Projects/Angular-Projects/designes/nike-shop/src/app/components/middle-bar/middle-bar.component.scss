@@ -1,0 +1,140 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+
+ :host {
+   z-index        : 1;
+   width          : 60%;
+   display        : flex;
+   justify-content: space-around;
+   align-items    : flex-start;
+   flex-direction : column;
+ }
+
+ .nike-bg {
+   height  : 590px;
+   opacity : 0.25;
+   position: absolute;
+   left    : 27%;
+   top     : -30%;
+   z-index : 1;
+ }
+
+ .container-title {
+   position      : relative;
+   flex-direction: column;
+   width         : 100%;
+   left          : 42px;
+   z-index       : 2;
+
+
+   &__title {
+     font-size: 5.88rem;
+   }
+
+   &__title-1 {
+     position: relative;
+     top     : 3.5rem;
+   }
+ }
+
+ .container-rating {
+   display        : flex;
+   justify-content: space-between;
+   align-items    : center;
+   width          : 53.5%;
+   position       : relative;
+   left           : 4.5px;
+
+   &__title {
+     font-size  : 1.6rem;
+     font-family: 'Bitter', serif;
+   }
+
+   &__container-star {
+     display        : flex;
+     align-items    : center;
+     justify-content: center;
+
+     &__star {
+       height          : 1.9rem;
+       width           : 1.9rem;
+       clip-path       : polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+       background-color: #f4c11a;
+       border          : none;
+       margin          : .15rem;
+     }
+
+     &__reviews {
+       color    : rgb(185, 185, 185);
+       font-size: 1.2rem;
+       margin   : 1rem;
+       opacity  : .7;
+     }
+   }
+ }
+
+ .middle-container {
+   display        : flex;
+   flex-direction : column;
+   justify-content: space-evenly;
+   height         : 300px;
+   width          : 100%;
+   position       : relative;
+   left           : 42px;
+   top            : -120px;
+
+   &__container-media {
+     display        : flex;
+     width          : 12.6%;
+     align-items    : center;
+     justify-content: space-between;
+     height         : 8%;
+
+     &>img {
+       height: 18px;
+       width : 18px;
+       filter: invert(.7);
+       cursor: pointer;
+     }
+   }
+
+   &__about {
+     font-size: 1.5rem;
+     color    : lightgray;
+     width    : 55%;
+   }
+
+   &__container-price {
+     display        : flex;
+     align-items    : center;
+     justify-content: flex-start;
+     cursor         : pointer;
+
+     &__price {
+       display         : flex;
+       justify-content : space-around;
+       width           : 110px;
+       align-items     : center;
+       flex-direction  : row;
+       background-color: #ECECEC;
+       font-size       : 1.2rem;
+       padding         : 16px;
+
+       &>img {
+         filter: invert(.7);
+       }
+     }
+
+     &__text {
+       position             : relative;
+       left                 : 3%;
+       color                : rgb(185, 185, 185);
+       text-decoration      : underline;
+       font-size            : 1.1rem;
+       text-decoration-color: rgba(185, 185, 185, 0.466);
+     }
+   }
+ }
+
+ .grey {
+   background-color: rgb(196, 196, 196);
+ }
