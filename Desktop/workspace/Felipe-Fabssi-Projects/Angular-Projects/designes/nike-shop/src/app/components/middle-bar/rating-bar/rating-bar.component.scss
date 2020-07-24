@@ -1,0 +1,38 @@
+.container-rating {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  position       : relative;
+  left           : 4.5px;
+
+  &__title {
+    font-size  : 1.6rem;
+    font-family: 'Bitter', serif;
+  }
+
+  &__container-star {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+    &__star {
+      height          : 1.9rem;
+      width           : 1.9rem;
+      clip-path       : polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      background-color: #f4c11a;
+      border          : none;
+      margin          : .15rem;
+    }
+
+    &__reviews {
+      color    : rgb(185, 185, 185);
+      font-size: 1.2rem;
+      margin   : 1rem;
+      opacity  : .7;
+    }
+  }
+}
+
+.grey {
+  background-color: rgb(196, 196, 196);
+}

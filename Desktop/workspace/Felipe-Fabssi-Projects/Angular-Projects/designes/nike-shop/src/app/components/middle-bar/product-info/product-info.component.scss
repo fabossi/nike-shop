@@ -1,0 +1,17 @@
+.container-title {
+  position      : relative;
+  flex-direction: column;
+  width         : 100%;
+  left          : 42px;
+  z-index       : 2;
+
+
+  &__title {
+    font-size: 5.88rem;
+  }
+
+  &__title-1 {
+    position: relative;
+    top     : 3.5rem;
+  }
+}

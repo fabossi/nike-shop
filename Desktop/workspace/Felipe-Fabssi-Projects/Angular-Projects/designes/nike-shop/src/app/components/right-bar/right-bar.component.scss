@@ -13,9 +13,10 @@
 
   &__img {
     position       : relative;
-    height         : 800px;
+    height         : 680px;
     background-size: cover;
     transform      : rotate(-5deg);
     right          : 20rem;
+    z-index        : 1;
   }
 }
