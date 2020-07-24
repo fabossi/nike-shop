@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { LeftBarComponent } from './components/left-bar/left-bar.component';
 import { MiddleBarComponent } from './components/middle-bar/middle-bar.component';
 import { RightBarComponent } from './components/right-bar/right-bar.component';
-import { SearchBuyComponent } from './components/right-bar/search-buy/search-buy.component';
-import { PriceComponent } from './components/middle-bar/price/price.component';
+
 import { MiddleContainerComponent } from './components/middle-bar/middle-container/middle-container.component';
 import { ProductInfoComponent } from './components/middle-bar/product-info/product-info.component';
 import { RatingBarComponent } from './components/middle-bar/rating-bar/rating-bar.component';
+import { ProductPreviewComponent } from './components/middle-bar/product-preview/product-preview.component';
+import { ProductPriceComponent } from './components/middle-bar/product-price/product-price.component';
+import { SearchCartComponent } from './components/right-bar/search-cart/search-cart.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,12 @@ import { RatingBarComponent } from './components/middle-bar/rating-bar/rating-ba
     LeftBarComponent,
     MiddleBarComponent,
     RightBarComponent,
-    SearchBuyComponent,
-    PriceComponent,
+    SearchCartComponent,
+    ProductPreviewComponent,
     MiddleContainerComponent,
     ProductInfoComponent,
-    RatingBarComponent
+    RatingBarComponent,
+    ProductPriceComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+.container-all {
+  display        : flex;
+  justify-content: space-between;
+  width          : 310px;
+  position       : relative;
+  left           : 32px;
+  top            : -62px;
+
+  &__container-preview {
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    background-color: #2887900e;
+    cursor          : pointer;
+    background-size : cover;
+    transform       : scale(.8);
+    transition      : transform .6s, box-shadow .5s;
+
+    &:hover {
+      box-shadow: 0 24px 30px rgba(185, 185, 185, 0.466);
+      transform : scale(.9);
+    }
+  }
+}
