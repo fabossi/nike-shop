@@ -13,12 +13,11 @@
 
   &__img {
     position       : relative;
-    height         : 620px;
+    height         : 560px;
     background-size: cover;
     transform      : rotate(-5deg);
     right          : 25rem;
-    z-index        : 1;
-    top            : 2rem;
+    top            : 5rem;
   }
 }
 

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items    : center;
   width          : 120px;
-  z-index        : 3;
+  z-index        : 2;
 
   &__circle {
     cursor          : pointer;
@@ -14,7 +14,6 @@
     height          : 35px;
     background-color: #f3f3f3;
     clip-path       : circle(50% at 50% 50%);
-
 
     &__dash {
       height          : 3px;
