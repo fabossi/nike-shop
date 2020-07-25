@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-price',
+  selector: 'app-product-preview',
   templateUrl: './product-preview.component.html',
   styleUrls: ['./product-preview.component.scss']
 })

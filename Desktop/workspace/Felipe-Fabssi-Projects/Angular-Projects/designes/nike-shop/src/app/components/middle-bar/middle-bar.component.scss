@@ -17,3 +17,13 @@
    top     : -30%;
    z-index : 1;
  }
+
+ .make-flex {
+   display        : flex;
+   align-items    : center;
+   justify-content: space-between;
+   width          : 85%;
+   position       : relative;
+   top            : -50px;
+   z-index        : 1;
+ }

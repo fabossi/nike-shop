@@ -1,0 +1,50 @@
+:host {
+  display : flex;
+  position: absolute;
+  top     : 76%;
+  right   : 50%;
+}
+
+.container-price {
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  align-items     : center;
+  height          : 150px;
+  width           : 150px;
+  background-color: #f3f3f3;
+
+  &__price {
+    font-size: 2.5rem;
+    position : relative;
+    top      : -1rem;
+  }
+
+  &__price-dashed {
+    position       : relative;
+    top            : -25px;
+    font-size      : 1.7rem;
+    text-decoration: line-through;
+    color          : #B9BDC3;
+  }
+}
+
+.container-add-cart {
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  flex-direction  : row;
+  height          : 90px;
+  width           : 170px;
+  background-color: #bdff42;
+  position        : relative;
+  top             : 3.5rem;
+  right           : 1rem;
+  box-shadow      : -16px 0px 35px 0px rgba($color: black, $alpha: .3);
+  cursor          : pointer;
+
+  &__cart {
+    font-size: 1.4rem;
+    margin   : .5rem;
+  }
+}

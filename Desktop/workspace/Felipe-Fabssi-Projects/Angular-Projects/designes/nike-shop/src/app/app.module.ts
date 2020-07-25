@@ -11,8 +11,10 @@ import { MiddleContainerComponent } from './components/middle-bar/middle-contain
 import { ProductInfoComponent } from './components/middle-bar/product-info/product-info.component';
 import { RatingBarComponent } from './components/middle-bar/rating-bar/rating-bar.component';
 import { ProductPreviewComponent } from './components/middle-bar/product-preview/product-preview.component';
-import { ProductPriceComponent } from './components/middle-bar/product-price/product-price.component';
 import { SearchCartComponent } from './components/right-bar/search-cart/search-cart.component';
+
+import { ProductAddComponent } from './components/middle-bar/product-add/product-add.component';
+import { ProductPriceComponent } from './components/right-bar/product-price/product-price.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { SearchCartComponent } from './components/right-bar/search-cart/search-c
     MiddleContainerComponent,
     ProductInfoComponent,
     RatingBarComponent,
+    ProductAddComponent,
     ProductPriceComponent
   ],
   imports: [

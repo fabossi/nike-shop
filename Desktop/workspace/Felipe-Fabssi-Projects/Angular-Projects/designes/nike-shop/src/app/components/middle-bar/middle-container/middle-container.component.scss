@@ -29,13 +29,13 @@
     width    : 55%;
   }
 
-  &__container-price {
+  &__container-size {
     display        : flex;
     align-items    : center;
     justify-content: flex-start;
     cursor         : pointer;
 
-    &__price {
+    &__size {
       display         : flex;
       justify-content : space-around;
       width           : 110px;
